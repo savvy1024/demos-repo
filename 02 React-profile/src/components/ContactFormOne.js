@@ -43,7 +43,8 @@ function ContactSection() {
 
   return (
     <div className='h-screen flex flex-col bg-purple-700 pt-10'>
-      <h1 className='text-3xl pb-10 text-white'>Contact me</h1>
+      <h1 className='text-3xl  text-white'>Contact me</h1>
+      <p className="pb-10 text-white">by useFormik</p>
       <form
         onSubmit={handleSubmit}
         className='w-3/5 flex flex-col mx-auto text-left'

@@ -8,7 +8,8 @@ function Contact() {
 
   return (
     <div className='h-screen bg-purple-700 pt-10'>
-      <h1 className='text-3xl text-white pb-10'>Contact me</h1>
+         <h1 className='text-3xl  text-white'>Contact me</h1>
+      <p className="pb-10 text-white">by Formik</p>
       <Formik
         initialValues={{
           name: "",
@@ -52,8 +53,9 @@ function Contact() {
               name='message'
               type='text'
               label='Message'
-              placeholder='Enter your message'
+              placeholder='Enter your message2'
               as='textarea'
+              rows={4}
               className={
                 props.errors.message && props.touched.message
                   ? "border-2 border-red-500 rounded mt-3"
