@@ -1,17 +1,19 @@
-#This is a simple demo created by React FrontEnd and Node/Express BackEnd.
+## This is a simple demo created by React FrontEnd and Node/Express BackEnd.
 
-## Client is the FrontEnd
+Client is the FrontEnd
 
-## api is the BackEnd
+api is the BackEnd
 
-# How to run
+## How to run
 
-##api
+## api
+
 -1. cd api
 -2. npm install
 -3. npm start
 
-##client
+## client
+
 -1. cd client
 -2. npm install
 -3. npm start
